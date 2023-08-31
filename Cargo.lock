@@ -130,6 +130,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "biome_wasm"
+version = "0.2.0"
+dependencies = [
+ "console_error_panic_hook",
+ "js-sys",
+ "quote",
+ "rome_console",
+ "rome_diagnostics",
+ "rome_js_factory",
+ "rome_js_formatter",
+ "rome_rowan",
+ "rome_service",
+ "schemars",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "bit-set"
 version = "0.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2363,26 +2383,6 @@ dependencies = [
  "serde",
  "serde_test",
  "static_assertions",
-]
-
-[[package]]
-name = "rome_wasm"
-version = "0.2.0"
-dependencies = [
- "console_error_panic_hook",
- "js-sys",
- "quote",
- "rome_console",
- "rome_diagnostics",
- "rome_js_factory",
- "rome_js_formatter",
- "rome_rowan",
- "rome_service",
- "schemars",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
 ]
 
 [[package]]
